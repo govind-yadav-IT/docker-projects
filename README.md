@@ -24,3 +24,18 @@ docker run system-health:v1
 
 ## Author
 Govind | BSc IT | Aspiring DevOps Engineer
+
+### check_path.sh
+Checks disk usage for any directory path specified as an argument.
+
+**Usage:**
+```bash
+./check_path.sh /path/to/check
+```
+
+**Features:**
+- Accepts any directory path as argument
+- Shows disk usage for specified path
+- Returns error if no argument provided
+
+
